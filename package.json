@@ -11,8 +11,8 @@
     "start": "node dist/server.js",
     "dev": "npx nodemon src/server.ts",
     "heroku-postbuild":  "tsc -p .",
-    "build": "tsc -p ."
-    
+    "build": "npx tsc"
+
 
   },
   "keywords": [],
